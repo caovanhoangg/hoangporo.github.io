@@ -1,0 +1,82 @@
+.content {
+    position: relative;
+    z-index: 3;
+  }
+  #no{
+    position: absolute;
+    display: inline-block;
+    left: 35%; 
+    top: 40vh;
+    -webkit-transition: all 0.1s ease-out;
+  }
+  #yes{
+    position: absolute;
+    display: inline-block;
+    left: 70%; 
+    top: 40vh;
+    -webkit-transition: all 0.3s ease-out;
+  }
+#bg{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .8;
+  /* height: 100vh; */
+  z-index: 0;
+  background-repeat: no-repeat;
+ background-image: url(https://scontent.fdad3-2.fna.fbcdn.net/v/t1.6435-9/155392322_10221305846529833_2280059408196221867_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=xUfbUq3HTdwAX8ZvE5U&_nc_ht=scontent.fdad3-2.fna&oh=7d54fcb8bb4828aa8dc544e22d498f02&oe=6140A8D1);
+  background-size: cover;
+  background-position: 50%;
+  -webkit-filter: blur(4px);
+}
+.swal2-title, .swal2-content{
+  color: azure !important;
+}
+.swal2-popup {
+  border-radius: 15px !important;
+}
+
+header h2 {
+  font-family: 'Pacifico';
+  font-size: 80px;
+  text-align: center;
+	margin-bottom: 30px;
+}
+header h4 {
+  font-family: 'Pacifico';
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  header h2 {
+    font-family: 'Pacifico';
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h4 {
+    font-family: 'Pacifico';
+    text-align: center;
+    padding: 15px;
+  }
+  #no{
+    position: absolute;
+    display: inline-block;
+    left: 7%; 
+    top: 40vh;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.1s ease-out;
+  }
+  #yes{
+    position: absolute;
+    display: inline-block;
+    left: 58%; 
+    top: 40vh;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.3s ease-out;
+  }
+}
